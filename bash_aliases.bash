@@ -6,3 +6,4 @@ alias clean-ram='free -h && sudo sync && sudo sysctl -w vm.drop_caches=3 && free
 alias cat='ccat'
 alias git-timeout="git config --global credential.helper 'cache --timeout=36000'" #Duration: 10 hours
 alias space='du -sh'
+alias extract='dtrx' #Install dtrx, previously.
