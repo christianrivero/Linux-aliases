@@ -10,3 +10,4 @@ alias extract='dtrx' #Install dtrx, previously. Works for tar,zip,cpio,deb,rpm,g
 alias battery='upower -i $(upower -e | grep BAT) | grep --color=never -E "state|to\ full|to\ empty|percentage"'
 alias cls='tput reset'
 alias dns-google='clear && sudo sh -c "echo nameserver 8.8.8.8 >> /etc/resolv.conf" && echo "You are using the Google DNS now."'
+alias tokenGitHub='echo $(cat ~/Repos/AccessToken.txt) | xclip -selection clipboard' #copies GitHub Access Token in clipboard.
