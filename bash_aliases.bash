@@ -11,3 +11,4 @@ alias battery='upower -i $(upower -e | grep BAT) | grep --color=never -E "state|
 alias cls='tput reset'
 alias dns-google='clear && sudo sh -c "echo nameserver 8.8.8.8 >> /etc/resolv.conf" && echo "You are using the Google DNS now."'
 alias tokenGitHub='echo $(cat ~/Repos/AccessToken.txt) | xclip -selection clipboard' #copies GitHub Access Token in clipboard.
+alias amend='echo "git add . && git commit --amend --no-edit && git push --force-with-lease" && echo -n "git add . && git commit --amend --no-edit && git push --force-with-lease" | xclip -selection clipboard'
