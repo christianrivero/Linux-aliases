@@ -1,6 +1,6 @@
 #ALIASES by Rvn10:
 
-alias cal='gcal --starting-day=1'
+alias cal='gcal --starting-day=1' # run "sudo apt install ncal" previously
 alias date='date +"%r" && date +"%d-%b-%Y"'
 alias clean-ram='free -h && sudo sync && sudo sysctl -w vm.drop_caches=3 && free -h'
 alias cat='ccat'
